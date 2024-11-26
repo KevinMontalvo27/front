@@ -1,0 +1,79 @@
+<div class="flex items-center justify-center h-screen ">
+  <div class="w-full max-w-4xl p-8 rounded-lg shadow-md ">
+    <h2 class="text-2xl font-bold text-center mb-6">
+      Regístrate
+    </h2>
+
+    <form>
+      <!-- Contenedor en dos columnas -->
+      <div class="grid grid-cols-2 gap-6">
+        <!-- Primera columna -->
+        <div>
+          <label for="username" class="block font-medium mb-2">
+            Nombre de usuario
+          </label>
+          <input type="text" id="username" name="username" class="input input-bordered input-md w-full" placeholder="Usuario" required>
+        </div>
+        <div>
+          <label for="names" class="block font-medium mb-2">
+            Nombre(s)
+          </label>
+          <input type="text" id="names" name="names" class="input input-bordered input-md w-full" placeholder="Nombres" required>
+        </div>
+        <div>
+          <label for="paternal" class="block font-medium mb-2">
+            Apellido Paterno
+          </label>
+          <input type="text" id="paternal" name="paternal" class="input input-bordered input-md w-full" placeholder="Apellido Paterno" required>
+        </div>
+        <div>
+          <label for="maternal" class="block font-medium mb-2">
+            Apellido Materno
+          </label>
+          <input type="text" id="maternal" name="maternal" class="input input-bordered input-md w-full" placeholder="Apellido Materno" required>
+        </div>
+        <div>
+          <label for="age" class="block font-medium mb-2">
+            Edad
+          </label>
+          <input type="text" id="age" name="age" class="input input-bordered input-md w-full" placeholder="Edad" required>
+        </div>
+        <div>
+          <label for="email" class="block font-medium mb-2">
+            Correo
+          </label>
+          <input type="text" id="email" name="email" class="input input-bordered input-md w-full" placeholder="Correo" required>
+        </div>
+        <div>
+          <label for="password" class="block font-medium mb-2">
+            Contraseña
+          </label>
+          <input type="password" id="password" name="password" class="input input-bordered input-md w-full" placeholder="Contraseña" required>
+        </div>
+        <div>
+          <label for="confirm-password" class="block font-medium mb-2">
+            Confirmar contraseña
+          </label>
+          <input type="password" id="confirm-password" name="confirm-password" class="input input-bordered input-md w-full" placeholder="Contraseña" required>
+        </div>
+        <div>
+          <select class="select select-bordered mt-2 "equired>
+            <option disabled selected>Selecciona una opcion</option>
+            <option>Cliente</option>
+            <option>Trabajador</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Enlace y botón centrados -->
+      <a class="flex justify-center my-4 link link-hover">
+        GG
+      </a>
+      <div class="flex justify-center">
+        <button class="btn btn-outline">
+          Ingresar
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
